@@ -12,6 +12,12 @@
     <module>code/routines</module>
     <module>jobs/process/testjob_0.1</module>
     <module>jobs/process/tdatagenerator_0.1</module>
+    <module>jobs/process/coop_dev/j_coop_ingestion_master_0.1</module>
+    <module>jobs/process/coop_dev/child_jobs/j_src_to_adls_0.1</module>
+    <module>jobs/process/coop_dev/child_jobs/j_snowflake_to_snowflake_0.1</module>
+    <module>jobs/process/coop_dev/child_jobs/j_parse_shared_branch_file_0.1</module>
+    <module>jobs/process/coop_dev/child_jobs/j_adls_to_adls_0.1</module>
+    <module>jobs/process/coop_dev/child_jobs/j_adls_to_snowflake_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
